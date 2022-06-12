@@ -120,7 +120,7 @@ def metrics_list(metric):
         plt.title("Değişken önem düzeyleri")
         st.pyplot(fig)
     
-st.sidebar.subheader("Sınıflandırma Algoritmasını Seçinizi")
+st.sidebar.subheader("Sınıflandırma Algoritmasını Seçiniz")
 algoritma = st.sidebar.selectbox("Algoritmalar", ("Lojistik Regresyon", "Karar Ağacı", "Destek Vektör Makinesi", "Gradient Boosting", "Rastgele Ormanlar"))
 
 if algoritma == "Lojistik Regresyon":
